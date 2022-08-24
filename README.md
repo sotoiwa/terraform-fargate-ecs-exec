@@ -98,5 +98,7 @@ root        20     7  0 09:29 ?        00:00:00 /managed-agents/execute-command/
 root        32    20  1 09:29 ?        00:00:00 /managed-agents/execute-command/ssm-session-worker ecs-execute-command-03837e0070f3aa0d
 root        42    32  0 09:29 pts/0    00:00:00 /bin/sh
 root        44    42  0 09:29 pts/0    00:00:00 ps -ef
+sh-4.2# /managed-agents/execute-command/amazon-ssm-agent --version
+SSM Agent version: 3.1.1260.0
 sh-4.2#
 ```
